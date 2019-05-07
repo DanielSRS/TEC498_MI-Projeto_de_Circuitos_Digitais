@@ -1,0 +1,122 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+2
+51
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Decodificador_Colunas
+# storage
+db|Batalha_Naval_Digital.(3).cnf
+db|Batalha_Naval_Digital.(3).cnf
+# case_insensitive
+# source_file
+Decodificador_Colunas.bdf
+4c809754f4883fd624af9410f3632194
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Decodificador_Colunas:inst5
+}
+# macro_sequence
+
+# end
+# entity
+Comparador
+# storage
+db|Batalha_Naval_Digital.(4).cnf
+db|Batalha_Naval_Digital.(4).cnf
+# case_insensitive
+# source_file
+Comparador.bdf
+74756ece9c5aa8bee78c9ba5aff13b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Comparador:inst8
+}
+# macro_sequence
+
+# end
+# entity
+Decodificador_Linhas
+# storage
+db|Batalha_Naval_Digital.(1).cnf
+db|Batalha_Naval_Digital.(1).cnf
+# case_insensitive
+# source_file
+Decodificador_Linhas.bdf
+a2e91b49fe677effb772d5ec5cf87474
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Decodificador_Linhas:inst
+}
+# macro_sequence
+
+# end
+# entity
+Confirmador
+# storage
+db|Batalha_Naval_Digital.(2).cnf
+db|Batalha_Naval_Digital.(2).cnf
+# case_insensitive
+# source_file
+Confirmador.bdf
+e22e95f7f8b8e644c58ad06d97a113c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Confirmador:inst3
+}
+# macro_sequence
+
+# end
+# entity
+Batalha_Naval_Digital
+# storage
+db|Batalha_Naval_Digital.(0).cnf
+db|Batalha_Naval_Digital.(0).cnf
+# case_insensitive
+# source_file
+Batalha_Naval_Digital.bdf
+549e95dd6cfa499ee5b6de6829128f4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

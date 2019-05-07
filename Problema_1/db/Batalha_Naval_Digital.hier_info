@@ -1,0 +1,106 @@
+|Batalha_Naval_Digital
+Linha_2 <= Decodificador_Linhas:inst.L2
+DIP_3 => Decodificador_Linhas:inst.C
+DIP_3 => Comparador:inst8.pin_name7
+DIP_2 => Decodificador_Linhas:inst.B
+DIP_2 => Comparador:inst8.pin_name6
+DIP_1 => Decodificador_Linhas:inst.A
+DIP_1 => Comparador:inst8.pin_name9
+Linha_1 <= Decodificador_Linhas:inst.L1
+Linha_3 <= Decodificador_Linhas:inst.L3
+Linha_4 <= Decodificador_Linhas:inst.L4
+Linha_5 <= Decodificador_Linhas:inst.L5
+Linha_6 <= Decodificador_Linhas:inst.L6
+Linha_7 <= Decodificador_Linhas:inst.L7
+Coluna_A <= Confirmador:inst3.CA
+DIP_6 => Decodificador_Colunas:inst5.C
+DIP_6 => Comparador:inst8.pin_name12
+DIP_5 => Decodificador_Colunas:inst5.B
+DIP_5 => Comparador:inst8.pin_name11
+DIP_4 => Decodificador_Colunas:inst5.A
+DIP_4 => Comparador:inst8.pin_name10
+DIP_4 => inst10.IN0
+DIP_4 => inst10.IN1
+Coluna_B <= Confirmador:inst3.CB
+Coluna_C <= Confirmador:inst3.CC
+Coluna_D <= Confirmador:inst3.CD
+Coluna_E <= Confirmador:inst3.CE
+LED_Acerto <= Comparador:inst8.pin_name8
+LED_Erro <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Batalha_Naval_Digital|Decodificador_Linhas:inst
+L1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst12.IN0
+B => inst6.IN0
+B => inst7.IN0
+C => inst.IN1
+C => inst10.IN0
+C => inst4.IN1
+C => inst6.IN1
+C => inst8.IN1
+A => inst.IN2
+A => inst3.IN2
+A => inst4.IN2
+A => inst5.IN2
+A => inst11.IN0
+L2 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+L3 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+L4 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+L5 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+L6 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+L7 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Batalha_Naval_Digital|Confirmador:inst3
+CA <= inst.DB_MAX_OUTPUT_PORT_TYPE
+pin_name9 => inst.IN0
+pin_name14 => inst.IN1
+pin_name14 => inst1.IN1
+pin_name14 => inst2.IN1
+pin_name14 => inst3.IN1
+pin_name14 => inst4.IN1
+CB <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+pin_name10 => inst1.IN0
+CC <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+pin_name11 => inst2.IN0
+CD <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+pin_name12 => inst3.IN0
+CE <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+pin_name13 => inst4.IN0
+
+
+|Batalha_Naval_Digital|Decodificador_Colunas:inst5
+pin_name <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst11.IN0
+A => inst6.IN0
+B => inst12.IN0
+B => inst4.IN1
+B => inst5.IN1
+C => inst10.IN0
+C => inst3.IN2
+C => inst5.IN2
+pin_name11 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+pin_name12 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+pin_name13 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+pin_name14 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Batalha_Naval_Digital|Comparador:inst8
+pin_name8 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+pin_name2 => inst3.IN0
+pin_name7 => inst3.IN1
+pin_name => inst.IN0
+pin_name9 => inst.IN1
+pin_name1 => inst2.IN0
+pin_name6 => inst2.IN1
+pin_name3 => inst4.IN0
+pin_name10 => inst4.IN1
+pin_name4 => inst5.IN0
+pin_name11 => inst5.IN1
+pin_name5 => inst6.IN0
+pin_name12 => inst6.IN1
+
+

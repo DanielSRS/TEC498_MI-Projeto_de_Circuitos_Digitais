@@ -75,7 +75,7 @@ applicable agreement for further details.
 	(output)
 	(rect 696 -32 872 -16)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name" (rect 90 0 137 12)(font "Arial" ))
+	(text "L1" (rect 90 0 101 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -91,7 +91,7 @@ applicable agreement for further details.
 	(output)
 	(rect 696 24 872 40)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name11" (rect 90 0 149 12)(font "Arial" ))
+	(text "L2" (rect 90 0 101 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -107,7 +107,7 @@ applicable agreement for further details.
 	(output)
 	(rect 696 80 872 96)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name12" (rect 90 0 149 12)(font "Arial" ))
+	(text "L3" (rect 90 0 101 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -123,7 +123,7 @@ applicable agreement for further details.
 	(output)
 	(rect 696 136 872 152)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name13" (rect 90 0 149 12)(font "Arial" ))
+	(text "L4" (rect 90 0 101 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -139,7 +139,7 @@ applicable agreement for further details.
 	(output)
 	(rect 696 192 872 208)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name14" (rect 90 0 149 12)(font "Arial" ))
+	(text "L5" (rect 90 0 101 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -155,7 +155,7 @@ applicable agreement for further details.
 	(output)
 	(rect 696 248 872 264)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name15" (rect 90 0 149 12)(font "Arial" ))
+	(text "L6" (rect 90 0 101 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -171,7 +171,7 @@ applicable agreement for further details.
 	(output)
 	(rect 696 304 872 320)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "pin_name16" (rect 90 0 149 12)(font "Arial" ))
+	(text "L7" (rect 90 0 101 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))

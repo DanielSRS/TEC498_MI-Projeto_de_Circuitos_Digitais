@@ -50,3 +50,13 @@ set_global_assignment -name BDF_FILE Decodificador_Linhas.bdf
 set_global_assignment -name BDF_FILE Decodificador_Colunas.bdf
 set_global_assignment -name BDF_FILE Confirmador.bdf
 set_global_assignment -name BDF_FILE Comparador.bdf
+set_global_assignment -name FLEX10K_DEVICE_IO_STANDARD LVTTL/LVCMOS
+set_location_assignment PIN_99 -to DIP_1
+set_location_assignment PIN_101 -to DIP_2
+set_location_assignment PIN_103 -to DIP_3
+set_location_assignment PIN_111 -to DIP_4
+set_location_assignment PIN_113 -to DIP_5
+set_location_assignment PIN_115 -to DIP_6
+set_global_assignment -name MISC_FILE "A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Batalha_Naval_Digital.dpf"
+set_location_assignment PIN_127 -to LED_Acerto
+set_location_assignment PIN_149 -to LED_Erro
