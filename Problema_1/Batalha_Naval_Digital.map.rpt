@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Batalha_Naval_Digital
-Mon May 06 09:21:33 2019
+Fri May 24 03:47:51 2019
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -39,12 +39,12 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                               ;
 +-----------------------------+----------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Mon May 06 09:21:32 2019        ;
+; Analysis & Synthesis Status ; Successful - Fri May 24 03:47:51 2019        ;
 ; Quartus II Version          ; 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition ;
 ; Revision Name               ; Batalha_Naval_Digital                        ;
 ; Top-level Entity Name       ; Batalha_Naval_Digital                        ;
 ; Family                      ; ACEX1K                                       ;
-; Total logic elements        ; 8                                            ;
+; Total logic elements        ; 10                                           ;
 ; Total pins                  ; 20                                           ;
 ; Total memory bits           ; 0                                            ;
 ; Total PLLs                  ; 0                                            ;
@@ -123,6 +123,7 @@ applicable agreement for further details.
 ; Decodificador_Colunas.bdf        ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Decodificador_Colunas.bdf ;
 ; Confirmador.bdf                  ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Confirmador.bdf           ;
 ; Comparador.bdf                   ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Comparador.bdf            ;
+; Codificador.bdf                  ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Codificador.bdf           ;
 +----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------+
 
 
@@ -131,31 +132,32 @@ applicable agreement for further details.
 +--------------------------------+------------+
 ; Resource                       ; Usage      ;
 +--------------------------------+------------+
-; Total logic elements           ; 8          ;
-; Total combinational functions  ; 8          ;
-;     -- Total 4-input functions ; 1          ;
-;     -- Total 3-input functions ; 7          ;
+; Total logic elements           ; 10         ;
+; Total combinational functions  ; 10         ;
+;     -- Total 4-input functions ; 2          ;
+;     -- Total 3-input functions ; 8          ;
 ;     -- Total 2-input functions ; 0          ;
 ;     -- Total 1-input functions ; 0          ;
 ;     -- Total 0-input functions ; 0          ;
 ; Total registers                ; 0          ;
 ; I/O pins                       ; 20         ;
 ; Maximum fan-out node           ; DIP_3      ;
-; Maximum fan-out                ; 7          ;
-; Total fan-out                  ; 35         ;
-; Average fan-out                ; 1.25       ;
+; Maximum fan-out                ; 9          ;
+; Total fan-out                  ; 42         ;
+; Average fan-out                ; 1.40       ;
 +--------------------------------+------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                     ;
-+--------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------+--------------+
-; Compilation Hierarchy Node     ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                              ; Library Name ;
-+--------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------+--------------+
-; |Batalha_Naval_Digital         ; 8 (0)       ; 0            ; 0           ; 20   ; 8 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital                           ; work         ;
-;    |Confirmador:inst3|         ; 2 (2)       ; 0            ; 0           ; 0    ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Confirmador:inst3         ; work         ;
-;    |Decodificador_Linhas:inst| ; 6 (6)       ; 0            ; 0           ; 0    ; 6 (6)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Decodificador_Linhas:inst ; work         ;
-+--------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                         ;
++----------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------+--------------+
+; Compilation Hierarchy Node       ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                ; Library Name ;
++----------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------+--------------+
+; |Batalha_Naval_Digital           ; 10 (0)      ; 0            ; 0           ; 20   ; 10 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital                             ; work         ;
+;    |Comparador:inst13|           ; 1 (1)       ; 0            ; 0           ; 0    ; 1 (1)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Comparador:inst13           ; work         ;
+;    |Decodificador_Colunas:inst7| ; 2 (2)       ; 0            ; 0           ; 0    ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Decodificador_Colunas:inst7 ; work         ;
+;    |Decodificador_Linhas:inst|   ; 7 (7)       ; 0            ; 0           ; 0    ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Decodificador_Linhas:inst   ; work         ;
++----------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -180,7 +182,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon May 06 09:21:30 2019
+    Info: Processing started: Fri May 24 03:47:49 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Batalha_Naval_Digital -c Batalha_Naval_Digital
 Info: Found 1 design units, including 1 entities, in source file Batalha_Naval_Digital.bdf
     Info: Found entity 1: Batalha_Naval_Digital
@@ -192,24 +194,27 @@ Info: Found 1 design units, including 1 entities, in source file Confirmador.bdf
     Info: Found entity 1: Confirmador
 Info: Found 1 design units, including 1 entities, in source file Comparador.bdf
     Info: Found entity 1: Comparador
+Info: Found 1 design units, including 1 entities, in source file Codificador.bdf
+    Info: Found entity 1: Codificador
 Info: Elaborating entity "Batalha_Naval_Digital" for the top level hierarchy
 Info: Elaborating entity "Decodificador_Linhas" for hierarchy "Decodificador_Linhas:inst"
-Info: Elaborating entity "Confirmador" for hierarchy "Confirmador:inst3"
-Info: Elaborating entity "Decodificador_Colunas" for hierarchy "Decodificador_Colunas:inst5"
-Info: Elaborating entity "Comparador" for hierarchy "Comparador:inst8"
+Info: Elaborating entity "Confirmador" for hierarchy "Confirmador:inst11"
+Info: Elaborating entity "Decodificador_Colunas" for hierarchy "Decodificador_Colunas:inst7"
+Info: Elaborating entity "Comparador" for hierarchy "Comparador:inst13"
+Info: Elaborating entity "Codificador" for hierarchy "Codificador:inst9"
 Warning: Output pins are stuck at VCC or GND
-    Warning (13410): Pin "Coluna_A" is stuck at GND
+    Warning (13410): Pin "Coluna_B" is stuck at GND
     Warning (13410): Pin "Coluna_C" is stuck at GND
     Warning (13410): Pin "Coluna_D" is stuck at GND
     Warning (13410): Pin "Coluna_E" is stuck at GND
-Info: Implemented 28 device resources after synthesis - the final resource count might be different
+Info: Implemented 30 device resources after synthesis - the final resource count might be different
     Info: Implemented 6 input pins
     Info: Implemented 14 output pins
-    Info: Implemented 8 logic cells
+    Info: Implemented 10 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 218 megabytes
-    Info: Processing ended: Mon May 06 09:21:33 2019
-    Info: Elapsed time: 00:00:03
+    Info: Peak virtual memory: 223 megabytes
+    Info: Processing ended: Fri May 24 03:47:51 2019
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:01
 
 

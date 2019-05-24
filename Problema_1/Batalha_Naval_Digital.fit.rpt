@@ -1,5 +1,5 @@
 Fitter report for Batalha_Naval_Digital
-Mon May 06 09:21:44 2019
+Fri May 24 03:47:59 2019
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -50,14 +50,14 @@ applicable agreement for further details.
 +----------------------------------------------------------------------+
 ; Fitter Summary                                                       ;
 +-----------------------+----------------------------------------------+
-; Fitter Status         ; Successful - Mon May 06 09:21:44 2019        ;
+; Fitter Status         ; Successful - Fri May 24 03:47:59 2019        ;
 ; Quartus II Version    ; 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition ;
 ; Revision Name         ; Batalha_Naval_Digital                        ;
 ; Top-level Entity Name ; Batalha_Naval_Digital                        ;
 ; Family                ; ACEX1K                                       ;
 ; Device                ; EP1K100QC208-3                               ;
 ; Timing Models         ; Final                                        ;
-; Total logic elements  ; 10 / 4,992 ( < 1 % )                         ;
+; Total logic elements  ; 11 / 4,992 ( < 1 % )                         ;
 ; Total pins            ; 20 / 147 ( 14 % )                            ;
 ; Total memory bits     ; 0 / 49,152 ( 0 % )                           ;
 ; Total PLLs            ; 0                                            ;
@@ -130,12 +130,12 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------+-------+-----+------+---------+--------+--------------+-------------------------+---------------+-----------------+---------------+--------------+
 ; Name  ; Pin # ; Row ; Col. ; Fan-Out ; Global ; I/O Register ; Use Local Routing Input ; Power Up High ; PCI I/O Enabled ; Single-Pin CE ; I/O Standard ;
 +-------+-------+-----+------+---------+--------+--------------+-------------------------+---------------+-----------------+---------------+--------------+
-; DIP_3 ; 103   ; --  ; 2    ; 7       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
-; DIP_2 ; 101   ; --  ; 4    ; 7       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
-; DIP_1 ; 99    ; --  ; 6    ; 7       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
-; DIP_6 ; 115   ;  J  ; --   ; 3       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
-; DIP_4 ; 111   ;  L  ; --   ; 3       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
-; DIP_5 ; 113   ;  K  ; --   ; 3       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
+; DIP_3 ; 103   ; --  ; 2    ; 10      ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
+; DIP_2 ; 101   ; --  ; 4    ; 10      ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
+; DIP_1 ; 99    ; --  ; 6    ; 10      ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
+; DIP_6 ; 115   ;  J  ; --   ; 1       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
+; DIP_4 ; 111   ;  L  ; --   ; 1       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
+; DIP_5 ; 113   ;  K  ; --   ; 1       ; no     ; no           ; no                      ; no            ; no              ; no            ; LVTTL/LVCMOS ;
 +-------+-------+-----+------+---------+--------+--------------+-------------------------+---------------+-----------------+---------------+--------------+
 
 
@@ -144,19 +144,19 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +------------+-------+-----+------+--------------+--------------------------+---------------+----------------+-----------------+---------------+---------------+------------+---------------+--------------+
 ; Name       ; Pin # ; Row ; Col. ; I/O Register ; Use Local Routing Output ; Power Up High ; Slow Slew Rate ; PCI I/O Enabled ; Single-Pin OE ; Single-Pin CE ; Open Drain ; TRI Primitive ; I/O Standard ;
 +------------+-------+-----+------+--------------+--------------------------+---------------+----------------+-----------------+---------------+---------------+------------+---------------+--------------+
-; Linha_2    ; 134   ;  D  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Linha_1    ; 19    ;  D  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Linha_3    ; 135   ;  D  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Linha_4    ; 160   ; --  ; 12   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Linha_5    ; 18    ;  D  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Linha_6    ; 159   ; --  ; 11   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Linha_7    ; 17    ;  D  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Coluna_B   ; 44    ;  K  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; LED_Acerto ; 41    ;  K  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; LED_Erro   ; 114   ;  K  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Coluna_A   ; 207   ; --  ; 51   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Coluna_C   ; 88    ; --  ; 19   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
-; Coluna_D   ; 38    ;  I  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Linha_2    ; 31    ;  H  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Linha_1    ; 147   ;  B  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Linha_3    ; 13    ;  B  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Linha_4    ; 170   ; --  ; 19   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Linha_5    ; 143   ;  B  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Linha_6    ; 120   ;  H  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Linha_7    ; 172   ; --  ; 20   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Coluna_A   ; 88    ; --  ; 19   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; LED_Acerto ; 127   ;  F  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; LED_Erro   ; 149   ;  A  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Coluna_B   ; 61    ; --  ; 40   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Coluna_C   ; 68    ; --  ; 33   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
+; Coluna_D   ; 40    ;  J  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
 ; Coluna_E   ; 122   ;  G  ; --   ; no           ; no                       ; no            ; no             ; no              ; no            ; no            ; no         ; no            ; LVTTL/LVCMOS ;
 +------------+-------+-----+------+--------------+--------------------------+---------------+----------------+-----------------+---------------+---------------+------------+---------------+--------------+
 
@@ -178,13 +178,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 10    ; GND*       ;              ;
 ; 11    ; GND*       ;              ;
 ; 12    ; GND*       ;              ;
-; 13    ; GND*       ;              ;
+; 13    ; Linha_3    ; LVTTL/LVCMOS ;
 ; 14    ; GND*       ;              ;
 ; 15    ; GND*       ;              ;
 ; 16    ; GND*       ;              ;
-; 17    ; Linha_7    ; LVTTL/LVCMOS ;
-; 18    ; Linha_5    ; LVTTL/LVCMOS ;
-; 19    ; Linha_1    ; LVTTL/LVCMOS ;
+; 17    ; GND*       ;              ;
+; 18    ; GND*       ;              ;
+; 19    ; GND*       ;              ;
 ; 20    ; GND        ;              ;
 ; 21    ; VCC_INT    ;              ;
 ; 22    ; VCC_IO     ;              ;
@@ -196,20 +196,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 28    ; GND*       ;              ;
 ; 29    ; GND*       ;              ;
 ; 30    ; GND*       ;              ;
-; 31    ; GND*       ;              ;
+; 31    ; Linha_2    ; LVTTL/LVCMOS ;
 ; 32    ; GND        ;              ;
 ; 33    ; VCC_INT    ;              ;
 ; 34    ; VCC_IO     ;              ;
 ; 35    ; GND        ;              ;
 ; 36    ; GND*       ;              ;
 ; 37    ; GND*       ;              ;
-; 38    ; Coluna_D   ; LVTTL/LVCMOS ;
+; 38    ; GND*       ;              ;
 ; 39    ; GND*       ;              ;
-; 40    ; GND*       ;              ;
-; 41    ; LED_Acerto ; LVTTL/LVCMOS ;
+; 40    ; Coluna_D   ; LVTTL/LVCMOS ;
+; 41    ; GND*       ;              ;
 ; 42    ; VCC_IO     ;              ;
 ; 43    ; GND        ;              ;
-; 44    ; Coluna_B   ; LVTTL/LVCMOS ;
+; 44    ; GND*       ;              ;
 ; 45    ; GND*       ;              ;
 ; 46    ; GND*       ;              ;
 ; 47    ; GND*       ;              ;
@@ -226,14 +226,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 58    ; GND*       ;              ;
 ; 59    ; GND        ;              ;
 ; 60    ; GND*       ;              ;
-; 61    ; GND*       ;              ;
+; 61    ; Coluna_B   ; LVTTL/LVCMOS ;
 ; 62    ; GND*       ;              ;
 ; 63    ; GND*       ;              ;
 ; 64    ; GND*       ;              ;
 ; 65    ; GND*       ;              ;
 ; 66    ; VCC_IO     ;              ;
 ; 67    ; GND*       ;              ;
-; 68    ; GND*       ;              ;
+; 68    ; Coluna_C   ; LVTTL/LVCMOS ;
 ; 69    ; GND*       ;              ;
 ; 70    ; GND*       ;              ;
 ; 71    ; GND*       ;              ;
@@ -253,7 +253,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 85    ; GND*       ;              ;
 ; 86    ; GND*       ;              ;
 ; 87    ; GND*       ;              ;
-; 88    ; Coluna_C   ; LVTTL/LVCMOS ;
+; 88    ; Coluna_A   ; LVTTL/LVCMOS ;
 ; 89    ; GND*       ;              ;
 ; 90    ; GND*       ;              ;
 ; 91    ; VCC_INT    ;              ;
@@ -279,28 +279,28 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 111   ; DIP_4      ; LVTTL/LVCMOS ;
 ; 112   ; GND*       ;              ;
 ; 113   ; DIP_5      ; LVTTL/LVCMOS ;
-; 114   ; LED_Erro   ; LVTTL/LVCMOS ;
+; 114   ; GND*       ;              ;
 ; 115   ; DIP_6      ; LVTTL/LVCMOS ;
 ; 116   ; GND*       ;              ;
 ; 117   ; GND        ;              ;
 ; 118   ; VCC_IO     ;              ;
 ; 119   ; GND*       ;              ;
-; 120   ; GND*       ;              ;
+; 120   ; Linha_6    ; LVTTL/LVCMOS ;
 ; 121   ; GND*       ;              ;
 ; 122   ; Coluna_E   ; LVTTL/LVCMOS ;
 ; 123   ; GND        ;              ;
 ; 124   ; VCC_INT    ;              ;
 ; 125   ; GND*       ;              ;
 ; 126   ; GND*       ;              ;
-; 127   ; GND*       ;              ;
+; 127   ; LED_Acerto ; LVTTL/LVCMOS ;
 ; 128   ; GND*       ;              ;
 ; 129   ; GND        ;              ;
 ; 130   ; VCC_INT    ;              ;
 ; 131   ; GND*       ;              ;
 ; 132   ; GND*       ;              ;
 ; 133   ; GND*       ;              ;
-; 134   ; Linha_2    ; LVTTL/LVCMOS ;
-; 135   ; Linha_3    ; LVTTL/LVCMOS ;
+; 134   ; GND*       ;              ;
+; 135   ; GND*       ;              ;
 ; 136   ; GND*       ;              ;
 ; 137   ; GND        ;              ;
 ; 138   ; VCC_IO     ;              ;
@@ -308,13 +308,13 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 140   ; GND*       ;              ;
 ; 141   ; GND*       ;              ;
 ; 142   ; GND*       ;              ;
-; 143   ; GND*       ;              ;
+; 143   ; Linha_5    ; LVTTL/LVCMOS ;
 ; 144   ; GND*       ;              ;
 ; 145   ; GND        ;              ;
 ; 146   ; VCC_IO     ;              ;
-; 147   ; GND*       ;              ;
+; 147   ; Linha_1    ; LVTTL/LVCMOS ;
 ; 148   ; GND*       ;              ;
-; 149   ; GND*       ;              ;
+; 149   ; LED_Erro   ; LVTTL/LVCMOS ;
 ; 150   ; GND*       ;              ;
 ; 151   ; GND        ;              ;
 ; 152   ; VCC_INT    ;              ;
@@ -324,8 +324,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 156   ; ^DATA0     ;              ;
 ; 157   ; GND*       ;              ;
 ; 158   ; GND*       ;              ;
-; 159   ; Linha_6    ; LVTTL/LVCMOS ;
-; 160   ; Linha_4    ; LVTTL/LVCMOS ;
+; 159   ; GND*       ;              ;
+; 160   ; GND*       ;              ;
 ; 161   ; GND*       ;              ;
 ; 162   ; GND*       ;              ;
 ; 163   ; GND*       ;              ;
@@ -335,9 +335,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 167   ; GND*       ;              ;
 ; 168   ; GND*       ;              ;
 ; 169   ; GND*       ;              ;
-; 170   ; GND*       ;              ;
+; 170   ; Linha_4    ; LVTTL/LVCMOS ;
 ; 171   ; GND        ;              ;
-; 172   ; GND*       ;              ;
+; 172   ; Linha_7    ; LVTTL/LVCMOS ;
 ; 173   ; GND*       ;              ;
 ; 174   ; GND*       ;              ;
 ; 175   ; GND*       ;              ;
@@ -372,7 +372,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; 204   ; GND*       ;              ;
 ; 205   ; GND*       ;              ;
 ; 206   ; GND*       ;              ;
-; 207   ; Coluna_A   ; LVTTL/LVCMOS ;
+; 207   ; GND*       ;              ;
 ; 208   ; GND*       ;              ;
 +-------+------------+--------------+
 
@@ -382,21 +382,22 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +------------------------------------+---------+
 ; Name                               ; Fan-Out ;
 +------------------------------------+---------+
-; DIP_3                              ; 7       ;
-; DIP_2                              ; 7       ;
-; DIP_1                              ; 7       ;
-; Confirmador:inst3|inst1~2          ; 4       ;
-; DIP_6                              ; 3       ;
-; DIP_4                              ; 3       ;
-; DIP_5                              ; 3       ;
+; DIP_3                              ; 10      ;
+; DIP_2                              ; 10      ;
+; DIP_1                              ; 10      ;
+; Decodificador_Colunas:inst7|inst~2 ; 3       ;
+; Decodificador_Linhas:inst|inst5~13 ; 1       ;
+; DIP_6                              ; 1       ;
+; DIP_4                              ; 1       ;
+; DIP_5                              ; 1       ;
+; Decodificador_Linhas:inst|inst5~12 ; 1       ;
+; Decodificador_Linhas:inst|inst5~11 ; 1       ;
+; Comparador:inst13|inst7~2          ; 1       ;
+; Comparador:inst13|inst7~1          ; 1       ;
 ; Decodificador_Linhas:inst|inst5~9  ; 1       ;
-; Confirmador:inst3|inst1~4          ; 1       ;
-; Confirmador:inst3|inst1~3          ; 1       ;
-; Confirmador:inst3|inst1~5          ; 1       ;
+; Decodificador_Colunas:inst7|inst~3 ; 1       ;
 ; Decodificador_Linhas:inst|inst5~8  ; 1       ;
 ; Decodificador_Linhas:inst|inst5~7  ; 1       ;
-; Decodificador_Linhas:inst|inst5~11 ; 1       ;
-; Decodificador_Linhas:inst|inst5~6  ; 1       ;
 ; Decodificador_Linhas:inst|inst5~10 ; 1       ;
 +------------------------------------+---------+
 
@@ -406,10 +407,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------+----------------+
 ; Number of Logic Elements ; Number of LABs ;
 +--------------------------+----------------+
-; 0                        ; 622            ;
-; 1                        ; 0              ;
-; 2                        ; 0              ;
-; 3                        ; 1              ;
+; 0                        ; 620            ;
+; 1                        ; 2              ;
+; 2                        ; 1              ;
+; 3                        ; 0              ;
 ; 4                        ; 0              ;
 ; 5                        ; 0              ;
 ; 6                        ; 0              ;
@@ -422,10 +423,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+----------------+
 ; LAB External Interconnects ; Number of LABs ;
 +----------------------------+----------------+
-; 0                          ; 622            ;
+; 0                          ; 620            ;
 ; 1                          ; 0              ;
 ; 2                          ; 0              ;
-; 3                          ; 1              ;
+; 3                          ; 3              ;
 ; 4                          ; 1              ;
 +----------------------------+----------------+
 
@@ -435,81 +436,81 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-------+---------------------+-----------------------------+------------------------------+
 ; Row   ; Interconnect Used   ; Left Half Interconnect Used ; Right Half Interconnect Used ;
 +-------+---------------------+-----------------------------+------------------------------+
-;  A    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
-;  B    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
+;  A    ;  0 / 208 ( 0 % )    ;  1 / 104 ( < 1 % )          ;  0 / 104 ( 0 % )             ;
+;  B    ;  1 / 208 ( < 1 % )  ;  6 / 104 ( 6 % )            ;  0 / 104 ( 0 % )             ;
 ;  C    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
-;  D    ;  3 / 208 ( 1 % )    ;  5 / 104 ( 5 % )            ;  0 / 104 ( 0 % )             ;
+;  D    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
 ;  E    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
-;  F    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
+;  F    ;  0 / 208 ( 0 % )    ;  1 / 104 ( < 1 % )          ;  0 / 104 ( 0 % )             ;
 ;  G    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
-;  H    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
+;  H    ;  1 / 208 ( < 1 % )  ;  4 / 104 ( 4 % )            ;  0 / 104 ( 0 % )             ;
 ;  I    ;  0 / 208 ( 0 % )    ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
-;  J    ;  1 / 208 ( < 1 % )  ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
-;  K    ;  4 / 208 ( 2 % )    ;  3 / 104 ( 3 % )            ;  0 / 104 ( 0 % )             ;
+;  J    ;  2 / 208 ( < 1 % )  ;  1 / 104 ( < 1 % )          ;  0 / 104 ( 0 % )             ;
+;  K    ;  1 / 208 ( < 1 % )  ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
 ;  L    ;  1 / 208 ( < 1 % )  ;  0 / 104 ( 0 % )            ;  0 / 104 ( 0 % )             ;
-; Total ;  9 / 2496 ( < 1 % ) ;  8 / 1248 ( < 1 % )         ;  0 / 1248 ( 0 % )            ;
+; Total ;  6 / 2496 ( < 1 % ) ;  13 / 1248 ( 1 % )          ;  0 / 1248 ( 0 % )            ;
 +-------+---------------------+-----------------------------+------------------------------+
 
 
-+-----------------------------+
-; LAB Column Interconnect     ;
-+-------+---------------------+
-; Col.  ; Interconnect Used   ;
-+-------+---------------------+
-; 1     ;  0 / 24 ( 0 % )     ;
-; 2     ;  1 / 24 ( 4 % )     ;
-; 3     ;  0 / 24 ( 0 % )     ;
-; 4     ;  1 / 24 ( 4 % )     ;
-; 5     ;  0 / 24 ( 0 % )     ;
-; 6     ;  1 / 24 ( 4 % )     ;
-; 7     ;  0 / 24 ( 0 % )     ;
-; 8     ;  0 / 24 ( 0 % )     ;
-; 9     ;  0 / 24 ( 0 % )     ;
-; 10    ;  0 / 24 ( 0 % )     ;
-; 11    ;  1 / 24 ( 4 % )     ;
-; 12    ;  1 / 24 ( 4 % )     ;
-; 13    ;  0 / 24 ( 0 % )     ;
-; 14    ;  0 / 24 ( 0 % )     ;
-; 15    ;  0 / 24 ( 0 % )     ;
-; 16    ;  0 / 24 ( 0 % )     ;
-; 17    ;  0 / 24 ( 0 % )     ;
-; 18    ;  0 / 24 ( 0 % )     ;
-; 19    ;  1 / 24 ( 4 % )     ;
-; 20    ;  0 / 24 ( 0 % )     ;
-; 21    ;  0 / 24 ( 0 % )     ;
-; 22    ;  0 / 24 ( 0 % )     ;
-; 23    ;  0 / 24 ( 0 % )     ;
-; 24    ;  0 / 24 ( 0 % )     ;
-; 25    ;  0 / 24 ( 0 % )     ;
-; 26    ;  0 / 24 ( 0 % )     ;
-; 27    ;  0 / 24 ( 0 % )     ;
-; 28    ;  0 / 24 ( 0 % )     ;
-; 29    ;  0 / 24 ( 0 % )     ;
-; 30    ;  0 / 24 ( 0 % )     ;
-; 31    ;  0 / 24 ( 0 % )     ;
-; 32    ;  0 / 24 ( 0 % )     ;
-; 33    ;  0 / 24 ( 0 % )     ;
-; 34    ;  0 / 24 ( 0 % )     ;
-; 35    ;  0 / 24 ( 0 % )     ;
-; 36    ;  0 / 24 ( 0 % )     ;
-; 37    ;  0 / 24 ( 0 % )     ;
-; 38    ;  0 / 24 ( 0 % )     ;
-; 39    ;  0 / 24 ( 0 % )     ;
-; 40    ;  0 / 24 ( 0 % )     ;
-; 41    ;  0 / 24 ( 0 % )     ;
-; 42    ;  0 / 24 ( 0 % )     ;
-; 43    ;  1 / 24 ( 4 % )     ;
-; 44    ;  0 / 24 ( 0 % )     ;
-; 45    ;  0 / 24 ( 0 % )     ;
-; 46    ;  0 / 24 ( 0 % )     ;
-; 47    ;  0 / 24 ( 0 % )     ;
-; 48    ;  0 / 24 ( 0 % )     ;
-; 49    ;  0 / 24 ( 0 % )     ;
-; 50    ;  0 / 24 ( 0 % )     ;
-; 51    ;  0 / 24 ( 0 % )     ;
-; 52    ;  0 / 24 ( 0 % )     ;
-; Total ;  7 / 1248 ( < 1 % ) ;
-+-------+---------------------+
++------------------------------+
+; LAB Column Interconnect      ;
++-------+----------------------+
+; Col.  ; Interconnect Used    ;
++-------+----------------------+
+; 1     ;  0 / 24 ( 0 % )      ;
+; 2     ;  1 / 24 ( 4 % )      ;
+; 3     ;  0 / 24 ( 0 % )      ;
+; 4     ;  1 / 24 ( 4 % )      ;
+; 5     ;  0 / 24 ( 0 % )      ;
+; 6     ;  1 / 24 ( 4 % )      ;
+; 7     ;  0 / 24 ( 0 % )      ;
+; 8     ;  0 / 24 ( 0 % )      ;
+; 9     ;  0 / 24 ( 0 % )      ;
+; 10    ;  0 / 24 ( 0 % )      ;
+; 11    ;  0 / 24 ( 0 % )      ;
+; 12    ;  0 / 24 ( 0 % )      ;
+; 13    ;  0 / 24 ( 0 % )      ;
+; 14    ;  0 / 24 ( 0 % )      ;
+; 15    ;  0 / 24 ( 0 % )      ;
+; 16    ;  1 / 24 ( 4 % )      ;
+; 17    ;  0 / 24 ( 0 % )      ;
+; 18    ;  0 / 24 ( 0 % )      ;
+; 19    ;  5 / 24 ( 21 % )     ;
+; 20    ;  1 / 24 ( 4 % )      ;
+; 21    ;  0 / 24 ( 0 % )      ;
+; 22    ;  0 / 24 ( 0 % )      ;
+; 23    ;  0 / 24 ( 0 % )      ;
+; 24    ;  0 / 24 ( 0 % )      ;
+; 25    ;  0 / 24 ( 0 % )      ;
+; 26    ;  0 / 24 ( 0 % )      ;
+; 27    ;  0 / 24 ( 0 % )      ;
+; 28    ;  0 / 24 ( 0 % )      ;
+; 29    ;  0 / 24 ( 0 % )      ;
+; 30    ;  0 / 24 ( 0 % )      ;
+; 31    ;  0 / 24 ( 0 % )      ;
+; 32    ;  0 / 24 ( 0 % )      ;
+; 33    ;  0 / 24 ( 0 % )      ;
+; 34    ;  0 / 24 ( 0 % )      ;
+; 35    ;  0 / 24 ( 0 % )      ;
+; 36    ;  0 / 24 ( 0 % )      ;
+; 37    ;  0 / 24 ( 0 % )      ;
+; 38    ;  0 / 24 ( 0 % )      ;
+; 39    ;  0 / 24 ( 0 % )      ;
+; 40    ;  0 / 24 ( 0 % )      ;
+; 41    ;  0 / 24 ( 0 % )      ;
+; 42    ;  0 / 24 ( 0 % )      ;
+; 43    ;  1 / 24 ( 4 % )      ;
+; 44    ;  0 / 24 ( 0 % )      ;
+; 45    ;  0 / 24 ( 0 % )      ;
+; 46    ;  0 / 24 ( 0 % )      ;
+; 47    ;  0 / 24 ( 0 % )      ;
+; 48    ;  0 / 24 ( 0 % )      ;
+; 49    ;  0 / 24 ( 0 % )      ;
+; 50    ;  0 / 24 ( 0 % )      ;
+; 51    ;  0 / 24 ( 0 % )      ;
+; 52    ;  0 / 24 ( 0 % )      ;
+; Total ;  11 / 1248 ( < 1 % ) ;
++-------+----------------------+
 
 
 +---------------------------+
@@ -527,7 +528,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +-----------------------------------+----------------------+
 ; Resource                          ; Usage                ;
 +-----------------------------------+----------------------+
-; Total logic elements              ; 10 / 4,992 ( < 1 % ) ;
+; Total logic elements              ; 11 / 4,992 ( < 1 % ) ;
 ; Registers                         ; 0 / 4,992 ( 0 % )    ;
 ; Logic elements in carry chains    ; 0                    ;
 ; User inserted logic elements      ; 0                    ;
@@ -539,23 +540,24 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Total memory bits                 ; 0 / 49,152 ( 0 % )   ;
 ; Total RAM block bits              ; 0 / 49,152 ( 0 % )   ;
 ; Maximum fan-out node              ; DIP_3                ;
-; Maximum fan-out                   ; 7                    ;
+; Maximum fan-out                   ; 10                   ;
 ; Highest non-global fan-out signal ; DIP_3                ;
-; Highest non-global fan-out        ; 7                    ;
-; Total fan-out                     ; 43                   ;
-; Average fan-out                   ; 1.43                 ;
+; Highest non-global fan-out        ; 10                   ;
+; Total fan-out                     ; 46                   ;
+; Average fan-out                   ; 1.48                 ;
 +-----------------------------------+----------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                   ;
-+--------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------+--------------+
-; Compilation Hierarchy Node     ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                              ; Library Name ;
-+--------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------+--------------+
-; |Batalha_Naval_Digital         ; 10 (0)      ; 0            ; 0           ; 20   ; 10 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital                           ; work         ;
-;    |Confirmador:inst3|         ; 4 (4)       ; 0            ; 0           ; 0    ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Confirmador:inst3         ; work         ;
-;    |Decodificador_Linhas:inst| ; 6 (6)       ; 0            ; 0           ; 0    ; 6 (6)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Decodificador_Linhas:inst ; work         ;
-+--------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+--------------------------------------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                       ;
++----------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------+--------------+
+; Compilation Hierarchy Node       ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                                ; Library Name ;
++----------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------+--------------+
+; |Batalha_Naval_Digital           ; 11 (0)      ; 0            ; 0           ; 20   ; 11 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital                             ; work         ;
+;    |Comparador:inst13|           ; 2 (2)       ; 0            ; 0           ; 0    ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Comparador:inst13           ; work         ;
+;    |Decodificador_Colunas:inst7| ; 2 (2)       ; 0            ; 0           ; 0    ; 2 (2)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Decodificador_Colunas:inst7 ; work         ;
+;    |Decodificador_Linhas:inst|   ; 7 (7)       ; 0            ; 0           ; 0    ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |Batalha_Naval_Digital|Decodificador_Linhas:inst   ; work         ;
++----------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+----------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -599,7 +601,7 @@ The pin-out file can be found in A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projet
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Mon May 06 09:21:34 2019
+    Info: Processing started: Fri May 24 03:47:52 2019
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off Batalha_Naval_Digital -c Batalha_Naval_Digital
 Info: Selected device EP1K100QC208-3 for design "Batalha_Naval_Digital"
 Warning: Feature SignalProbe is not available with your current license
@@ -609,8 +611,8 @@ Info: Timing requirements not specified -- optimizing circuit to achieve the fol
     Info: Not setting a global tsu requirement
     Info: Not setting a global tco requirement
     Info: Not setting a global tpd requirement
-Info: Inserted 2 logic cells in first fitting attempt
-Info: Started fitting attempt 1 on Mon May 06 2019 at 09:21:35
+Info: Inserted 1 logic cells in first fitting attempt
+Info: Started fitting attempt 1 on Fri May 24 2019 at 03:47:53
 Info: Fitter placement preparation operations beginning
 Info: Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info: Fitter placement operations beginning
@@ -618,9 +620,9 @@ Info: Fitter placement operations ending: elapsed time is 00:00:00
 Info: Fitter routing operations beginning
 Info: Fitter routing operations ending: elapsed time is 00:00:00
 Info: Quartus II Fitter was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 238 megabytes
-    Info: Processing ended: Mon May 06 09:21:44 2019
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:08
+    Info: Peak virtual memory: 230 megabytes
+    Info: Processing ended: Fri May 24 03:47:59 2019
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
 
 

@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 26.400 ns
-From           : DIP_2
-To             : Coluna_B
+Actual Time    : 30.100 ns
+From           : DIP_4
+To             : LED_Acerto
 From Clock     : --
 To Clock       : --
 Failed Paths   : 0
