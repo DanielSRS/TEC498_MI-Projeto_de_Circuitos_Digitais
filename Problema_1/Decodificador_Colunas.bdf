@@ -72,7 +72,7 @@ applicable agreement for further details.
 	(output)
 	(rect 664 -808 840 -792)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "s_C1" (rect 90 0 115 12)(font "Arial" ))
+	(text "d_C1" (rect 90 0 115 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -88,7 +88,7 @@ applicable agreement for further details.
 	(output)
 	(rect 664 -752 840 -736)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "s_C2" (rect 90 0 115 12)(font "Arial" ))
+	(text "d_C2" (rect 90 0 115 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -104,7 +104,7 @@ applicable agreement for further details.
 	(output)
 	(rect 664 -696 840 -680)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "s_C3" (rect 90 0 115 12)(font "Arial" ))
+	(text "d_C3" (rect 90 0 115 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -120,7 +120,7 @@ applicable agreement for further details.
 	(output)
 	(rect 664 -640 840 -624)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "s_C4" (rect 90 0 115 12)(font "Arial" ))
+	(text "d_C4" (rect 90 0 115 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))
@@ -136,7 +136,7 @@ applicable agreement for further details.
 	(output)
 	(rect 664 -584 840 -568)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "s_C5" (rect 90 0 115 12)(font "Arial" ))
+	(text "d_C5" (rect 90 0 115 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8)(line_width 1))

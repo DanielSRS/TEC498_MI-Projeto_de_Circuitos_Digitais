@@ -62,3 +62,15 @@ set_location_assignment PIN_127 -to LED_Acerto
 set_location_assignment PIN_149 -to LED_Erro
 set_global_assignment -name BDF_FILE Codificador.bdf
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Testes/Codificador_teste1.vwf
+set_location_assignment PIN_70 -to Linha_1
+set_location_assignment PIN_68 -to Linha_2
+set_location_assignment PIN_65 -to Linha_3
+set_location_assignment PIN_63 -to Coluna_B
+set_location_assignment PIN_61 -to Coluna_A
+set_location_assignment PIN_58 -to Linha_4
+set_location_assignment PIN_56 -to Coluna_C
+set_location_assignment PIN_54 -to Linha_6
+set_location_assignment PIN_47 -to Linha_7
+set_location_assignment PIN_45 -to Coluna_D
+set_location_assignment PIN_41 -to Linha_5
+set_location_assignment PIN_39 -to Coluna_E
