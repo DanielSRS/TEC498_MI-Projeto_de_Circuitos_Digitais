@@ -804,7 +804,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 0 -72 96 88)
+	(rect 152 -72 248 88)
 	(text "Posicionador" (rect 5 0 78 14)(font "Arial" (font_size 8)))
 	(text "inst3" (rect 8 144 31 156)(font "Arial" ))
 	(port
@@ -1309,10 +1309,6 @@ applicable agreement for further details.
 	(pt 328 -8)
 )
 (connector
-	(pt -56 -40)
-	(pt 0 -40)
-)
-(connector
 	(pt -56 -352)
 	(pt -56 -40)
 )
@@ -1322,7 +1318,7 @@ applicable agreement for further details.
 )
 (connector
 	(pt 288 -40)
-	(pt 96 -40)
+	(pt 248 -40)
 )
 (connector
 	(pt 296 -72)
@@ -1330,7 +1326,7 @@ applicable agreement for further details.
 )
 (connector
 	(pt 296 -24)
-	(pt 96 -24)
+	(pt 248 -24)
 )
 (connector
 	(pt 304 -56)
@@ -1338,7 +1334,7 @@ applicable agreement for further details.
 )
 (connector
 	(pt 304 -8)
-	(pt 96 -8)
+	(pt 248 -8)
 )
 (connector
 	(pt 312 -40)
@@ -1346,7 +1342,7 @@ applicable agreement for further details.
 )
 (connector
 	(pt 312 8)
-	(pt 96 8)
+	(pt 248 8)
 )
 (connector
 	(pt 320 -24)
@@ -1354,7 +1350,7 @@ applicable agreement for further details.
 )
 (connector
 	(pt 320 24)
-	(pt 96 24)
+	(pt 248 24)
 )
 (connector
 	(pt 328 -8)
@@ -1362,7 +1358,7 @@ applicable agreement for further details.
 )
 (connector
 	(pt 328 40)
-	(pt 96 40)
+	(pt 248 40)
 )
 (connector
 	(pt -112 -352)
@@ -1371,6 +1367,10 @@ applicable agreement for further details.
 (connector
 	(pt -56 -352)
 	(pt -8 -352)
+)
+(connector
+	(pt -56 -40)
+	(pt 152 -40)
 )
 (junction (pt -56 -352))
 (junction (pt 72 -536))
