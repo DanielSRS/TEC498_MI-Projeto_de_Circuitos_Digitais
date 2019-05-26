@@ -74,3 +74,4 @@ set_location_assignment PIN_47 -to Linha_7
 set_location_assignment PIN_45 -to Coluna_D
 set_location_assignment PIN_41 -to Linha_5
 set_location_assignment PIN_39 -to Coluna_E
+set_global_assignment -name BDF_FILE Posicionador.bdf
