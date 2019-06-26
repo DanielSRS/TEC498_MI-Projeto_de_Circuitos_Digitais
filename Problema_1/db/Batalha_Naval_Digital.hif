@@ -99,26 +99,6 @@ Decodificador_Colunas:inst1
 
 # end
 # entity
-Codificador
-# storage
-db|Batalha_Naval_Digital.(5).cnf
-db|Batalha_Naval_Digital.(5).cnf
-# case_insensitive
-# source_file
-Codificador.bdf
-557337233a15ecf93aac4a2e49b18c0
-26
-# internal_option {
-BLOCK_DESIGN_NAMING
-AUTO
-}
-# hierarchies {
-Codificador:inst9
-}
-# macro_sequence
-
-# end
-# entity
 Posicionador
 # storage
 db|Batalha_Naval_Digital.(6).cnf
@@ -146,7 +126,7 @@ db|Batalha_Naval_Digital.(0).cnf
 # case_insensitive
 # source_file
 Batalha_Naval_Digital.bdf
-b9752cc2eecd5258f5b361f8b082813
+f71a4b2bba4cddaa3274e435e3195a6
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -154,6 +134,26 @@ AUTO
 }
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+Codificador
+# storage
+db|Batalha_Naval_Digital.(5).cnf
+db|Batalha_Naval_Digital.(5).cnf
+# case_insensitive
+# source_file
+Codificador.bdf
+74a84286165ad852161f7187e29b1df
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Codificador:inst4
 }
 # macro_sequence
 

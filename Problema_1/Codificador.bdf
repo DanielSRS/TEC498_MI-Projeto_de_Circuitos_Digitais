@@ -134,7 +134,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1424 1616 1600 1632)
+	(rect 1424 1688 1600 1704)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "C5" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -150,7 +150,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1424 1640 1600 1656)
+	(rect 1424 1664 1600 1680)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "C4" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -166,7 +166,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1424 1664 1600 1680)
+	(rect 1424 1640 1600 1656)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "C3" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -182,7 +182,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1424 1688 1600 1704)
+	(rect 1424 1616 1600 1632)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "C2" (rect 90 0 104 12)(font "Arial" ))
 	(pt 0 8)
@@ -3084,50 +3084,6 @@ applicable agreement for further details.
 	(pt 1064 3200)
 )
 (connector
-	(pt 1424 1600)
-	(pt 1416 1600)
-)
-(connector
-	(pt 1416 368)
-	(pt 1416 1600)
-)
-(connector
-	(pt 1424 1720)
-	(pt 1416 1720)
-)
-(connector
-	(pt 1416 1720)
-	(pt 1416 3168)
-)
-(connector
-	(pt 1424 1696)
-	(pt 1408 1696)
-)
-(connector
-	(pt 1408 1696)
-	(pt 1408 2824)
-)
-(connector
-	(pt 1424 1672)
-	(pt 1400 1672)
-)
-(connector
-	(pt 1400 1672)
-	(pt 1400 2080)
-)
-(connector
-	(pt 1424 1624)
-	(pt 1408 1624)
-)
-(connector
-	(pt 1424 1648)
-	(pt 1400 1648)
-)
-(connector
-	(pt 1400 1648)
-	(pt 1400 1304)
-)
-(connector
 	(pt 1160 368)
 	(pt 1416 368)
 )
@@ -3370,10 +3326,6 @@ applicable agreement for further details.
 (connector
 	(pt 936 824)
 	(pt 1136 824)
-)
-(connector
-	(pt 1408 1624)
-	(pt 1408 760)
 )
 (connector
 	(pt 1136 768)
@@ -3914,6 +3866,54 @@ applicable agreement for further details.
 (connector
 	(pt 272 1568)
 	(pt 272 1648)
+)
+(connector
+	(pt 1416 368)
+	(pt 1416 1600)
+)
+(connector
+	(pt 1416 3168)
+	(pt 1416 1720)
+)
+(connector
+	(pt 1408 2824)
+	(pt 1408 1696)
+)
+(connector
+	(pt 1400 2080)
+	(pt 1400 1672)
+)
+(connector
+	(pt 1400 1304)
+	(pt 1400 1648)
+)
+(connector
+	(pt 1408 760)
+	(pt 1408 1624)
+)
+(connector
+	(pt 1416 1600)
+	(pt 1424 1600)
+)
+(connector
+	(pt 1408 1624)
+	(pt 1424 1624)
+)
+(connector
+	(pt 1400 1648)
+	(pt 1424 1648)
+)
+(connector
+	(pt 1400 1672)
+	(pt 1424 1672)
+)
+(connector
+	(pt 1408 1696)
+	(pt 1424 1696)
+)
+(connector
+	(pt 1416 1720)
+	(pt 1424 1720)
 )
 (junction (pt 304 296))
 (junction (pt 304 360))

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Batalha_Naval_Digital
-Sat May 25 23:52:25 2019
+Wed Jun 26 20:47:34 2019
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                               ;
 +-----------------------------+----------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Sat May 25 23:52:25 2019        ;
+; Analysis & Synthesis Status ; Successful - Wed Jun 26 20:47:34 2019        ;
 ; Quartus II Version          ; 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition ;
 ; Revision Name               ; Batalha_Naval_Digital                        ;
 ; Top-level Entity Name       ; Batalha_Naval_Digital                        ;
@@ -113,19 +113,19 @@ applicable agreement for further details.
 +--------------------------------------------------------------+-----------------------+-----------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------+
-; Batalha_Naval_Digital.bdf        ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Batalha_Naval_Digital.bdf ;
-; Decodificador_Linhas.bdf         ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Decodificador_Linhas.bdf  ;
-; Decodificador_Colunas.bdf        ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Decodificador_Colunas.bdf ;
-; Confirmador.bdf                  ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Confirmador.bdf           ;
-; Comparador.bdf                   ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Comparador.bdf            ;
-; Codificador.bdf                  ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Codificador.bdf           ;
-; Posicionador.bdf                 ; yes             ; User Block Diagram/Schematic File  ; A:/Coding.cpp/UEFS Projects/CD/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Posicionador.bdf          ;
-+----------------------------------+-----------------+------------------------------------+-------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                             ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------------------------+
+; Batalha_Naval_Digital.bdf        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/danie/Downloads/cd/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Batalha_Naval_Digital.bdf ;
+; Decodificador_Linhas.bdf         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/danie/Downloads/cd/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Decodificador_Linhas.bdf  ;
+; Decodificador_Colunas.bdf        ; yes             ; User Block Diagram/Schematic File  ; C:/Users/danie/Downloads/cd/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Decodificador_Colunas.bdf ;
+; Confirmador.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/danie/Downloads/cd/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Confirmador.bdf           ;
+; Comparador.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/danie/Downloads/cd/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Comparador.bdf            ;
+; Codificador.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/danie/Downloads/cd/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Codificador.bdf           ;
+; Posicionador.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/danie/Downloads/cd/TEC498_MI-Projeto_de_Circuitos_Digitais/Problema_1/Posicionador.bdf          ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------+
@@ -183,7 +183,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sat May 25 23:52:23 2019
+    Info: Processing started: Wed Jun 26 20:47:30 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Batalha_Naval_Digital -c Batalha_Naval_Digital
 Info: Found 1 design units, including 1 entities, in source file Batalha_Naval_Digital.bdf
     Info: Found entity 1: Batalha_Naval_Digital
@@ -204,7 +204,7 @@ Info: Elaborating entity "Decodificador_Linhas" for hierarchy "Decodificador_Lin
 Info: Elaborating entity "Confirmador" for hierarchy "Confirmador:inst11"
 Info: Elaborating entity "Decodificador_Colunas" for hierarchy "Decodificador_Colunas:inst1"
 Info: Elaborating entity "Comparador" for hierarchy "Comparador:inst13"
-Info: Elaborating entity "Codificador" for hierarchy "Codificador:inst9"
+Info: Elaborating entity "Codificador" for hierarchy "Codificador:inst4"
 Info: Elaborating entity "Posicionador" for hierarchy "Posicionador:inst3"
 Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "Coluna_A" is stuck at GND
@@ -216,9 +216,9 @@ Info: Implemented 29 device resources after synthesis - the final resource count
     Info: Implemented 14 output pins
     Info: Implemented 9 logic cells
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 223 megabytes
-    Info: Processing ended: Sat May 25 23:52:25 2019
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 216 megabytes
+    Info: Processing ended: Wed Jun 26 20:47:34 2019
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:02
 
 
